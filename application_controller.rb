@@ -3,8 +3,12 @@ Bundler.require
 
 class ApplicationController < Sinatra::Base
 
-  get '/' do
-		erb :index #Anjuli's comment
+  get '/start' do
+		erb:index
+  end
+  
+  get '/survey' do
+    erb:survey
   end
 
 end
