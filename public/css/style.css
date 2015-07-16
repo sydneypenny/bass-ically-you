@@ -1,5 +1,5 @@
 body {
-  background-color: #3399FF;
+  background-image: url("http://eztechtraining.com/wp-content/uploads/2012/10/music_notes_white_black.jpg");
 }
 
 h1, h2 {
@@ -7,5 +7,9 @@ h1, h2 {
 }
 
 p {
+  text-align: center;
+}
+
+button {
   text-align: center;
 }
