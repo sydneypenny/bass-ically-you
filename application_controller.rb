@@ -5,6 +5,13 @@ class ApplicationController < Sinatra::Base
 
   get '/home' do
     erb :index
+
+  get '/start' do
+		erb:index
+  end
+  
+  get '/survey' do
+    erb:survey
   end
   
   get '/survey' do
