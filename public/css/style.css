@@ -31,9 +31,20 @@ div {
 }
 
 .col-sm-12 .picture {
-  background: url("http://www.vandemoer.be/images/articles/large/Yamaha-Avantgrand-N3-Winkel-Model-6791.png");
-  height:1000px;
-  background-size:cover;
-  margin:150px;
-  padding: 75px;
+  background: url("http://showroom.webgines.com/content/product/medium/112/yamaha-n3_2.jpg");
+  height:671px;
+  width:auto;
+/*   background-size:cover; */
+  margin-left:520px;
+  margin-right:470px;
+  padding-top: 205px;
+}
+h4 {
+  -webkit-transform: rotate(350deg);
+  font-size: 50px
+}
+
+#user-pic {
+  width:75px;
+  height:auto;
 }
