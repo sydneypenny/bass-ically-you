@@ -49,7 +49,7 @@ div {
   background: url("http://showroom.webgines.com/content/product/medium/112/yamaha-n3_2.jpg");
   height:671px;
   width:auto;
-/*   background-size:cover; */
+  background-repeat:no-repeat;
   margin-left:520px;
   margin-right:470px;
   padding-top: 205px;
