@@ -45,6 +45,9 @@ div {
   text-align: center;
 }
 
+DIV { font-family: 'Handlee', cursive;
+}
+
 .col-sm-12 .picture {
   background: url("http://showroom.webgines.com/content/product/medium/112/yamaha-n3_2.jpg");
   height:671px;
@@ -56,7 +59,8 @@ div {
 }
 h4 {
   -webkit-transform: rotate(350deg);
-  font-size: 50px
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
 }
 
 #user-pic {
