@@ -1,30 +1,65 @@
-@import url(http://fonts.googleapis.com/css?family=Handlee);
-
-#title-section {
-  font-family: 'Handlee', cursive;
-  text-align: center;
+.survey {
+  font-family: "Handlee";
+}
+h4 {
+  font-size: 50px;
+  -webkit-transform: rotate(345deg);
+}
+#user_name {
+  -webkit-transform: rotate(345deg);
+  font-size: 500px;
 }
 
-.info {
-  font-family: 'Handlee', cursive;
-  text-align: center;
-  background-color: black;
-  color: white;
-  opacity: 0.6;
+.other_input {
+  -webkit-transform: rotate(15deg);
+}
 body {
-  background;
-body {
-  background-color: #3399FF;
+  background-image: url("http://eztechtraining.com/wp-content/uploads/2012/10/music_notes_white_black.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Amatic SC', cursive;
 }
 
 h1, h2 {
   text-align: center;
 }
 
-p {
+h2 {
+  font-family: 'Handlee', cursive;
+}
+
+h3 {
   text-align: center;
 }
 
-a {
+p {
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+}
+
+div {
+  text-align: center;
+}
+
+.col-sm-12 .picture {
+  background: url("http://showroom.webgines.com/content/product/medium/112/yamaha-n3_2.jpg");
+  height:671px;
+  width:auto;
+/*   background-size:cover; */
+  margin-left:520px;
+  margin-right:470px;
+  padding-top: 205px;
+}
+h4 {
+  -webkit-transform: rotate(350deg);
+  font-size: 50px
+}
+
+#user-pic {
+  width:75px;
+  height:auto;
 }

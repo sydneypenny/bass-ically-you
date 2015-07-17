@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link href='http://fonts.googleapis.com/css?family=Rum+Raisin' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <meta charset="UTF-8">
+  <title>Bass-ically You</title>
+  <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+   <h1>
+     <br>
+     <img src="http://www.clipartbest.com/cliparts/yco/ed7/ycoed7zcE.jpeg" height=65px; id="user-pic";>
+     BASS-ICALLY YOU 
+   </h1>
+   <h2> A MUSIC PORTRAIT </h2>
+
+   <div class="row">
+     <div class="col-sm-12">
+       <div class="picture">
+       <img src="<%=@picture%>" height=65px>
+       </div>
+     </div>
+<!--      <div class="col-sm-4">
+       <h1>Col 3 </h1>
+     </div> -->
+   </div>
+      <h4> 
+   <DIV style="position: absolute; top:-540px; left:635px; width:10px; height:10px; -webkit-transform: rotate(345deg)"><%=@name%></DIV>
+    <div class="other_input">
+      <%="My primary instrument is the #{@primary_instrument}"%>
+     <br>
+      <%="My favorite genre to play is #{@genre_to_play}"%>
+     <br>
+      <%="My favorite genre to listen to is #{@genre_to_listen}"%>
+     <br>
+      <%="My favorite artist is #{@favorite_artist}!"%>
+     </div>
+   </h4>
+ </body>
+</html>
