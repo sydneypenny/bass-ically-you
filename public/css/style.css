@@ -4,19 +4,35 @@ body {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 80px;
+  font-family: 'Amatic SC', cursive;
 }
 
 h1, h2 {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Handlee', cursive;
+}
+
+h3 {
+  text-align: center;
+}
+
 p {
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
 }
 
 div {
   text-align: center;
-  font-size: 100px;
-  button-size: 200px;
+}
+
+.col-sm-12 .picture {
+  background: url("http://www.vandemoer.be/images/articles/large/Yamaha-Avantgrand-N3-Winkel-Model-6791.png");
+  height:1000px;
+  background-size:cover;
+  margin:150px;
 }
